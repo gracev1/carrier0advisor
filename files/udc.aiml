@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>I have no answer for that.</template>
+  </category>
+<category>
+    <pattern>Hi</pattern>
+    <template>Hello</template>
+</category>
+<category>
+    <pattern>I do not know what to do</pattern>
+    <template>It's Okay, I can help you with that!</template>
+</category>
+<category>
+    <pattern>I need direction</pattern>
+    <template>I'll help, ask me a question please</template>
+</category>
+<category>
+    <pattern>I do not know what to study</pattern>
+    <template>Let me ask you a few questions. Answer with the number that best describes you:
+<ol>
+        <li>Do you consider yourself creative?</li>
+    <li>Do you love video games?</li>
+    <li>Do you like math?</li>
+    <li>Do you enjoy a hands on job?</li>
+    <li>Do you have the ability to learn, adapt and grow?</li>
+</ol></template>
+</category>
+<category>
+    <pattern>1</pattern>
+    <template>You should consider Web Development!</template>
+</category>
+<category>
+    <pattern>2</pattern>
+    <template>You should consider Video Game Design!</template>
+</category>
+<category>
+    <pattern>3</pattern>
+    <template>You should consider Software Engineering!</template>
+</category>
+<category>
+    <pattern>4</pattern>
+    <template>You should consider Hardware Engineering!</template>
+</category>
+<category>
+    <pattern>5</pattern>
+    <template>Consider Software Development!</template>
+</category>
+<category>
+    <pattern></pattern>
+    <template></template>
+</category>
+</aiml>
